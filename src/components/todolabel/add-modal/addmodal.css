@@ -1,0 +1,56 @@
+.modal-css {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px #ccc;
+  border-radius: 10px;
+  padding: 0 32px 20px 32px;
+}
+.modal-header {
+  display: flex;
+  justify-content: center;
+}
+.Add-Todo {
+  color: #414141;
+}
+.colorBtn-outside {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.modal-footer {
+  margin-top: 30px;
+  margin-left: 200px;
+}
+.cancelModal {
+  border: 1px solid #d1d1d1;
+  color: #414141;
+  background-color: #ffffff;
+  font-size: 15px;
+  height: 25px;
+  width: 60px;
+  border-radius: 5px;
+  margin-right: 17px;
+}
+.saveModal {
+  background-color: #f93b42;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  height: 25px;
+  width: 60px;
+}

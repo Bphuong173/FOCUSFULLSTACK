@@ -1,0 +1,44 @@
+.Div-Input {
+  height: 50px;
+  background-color: white;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+.Input {
+  height: 100%;
+  border: 0;
+  padding: 0;
+  width: 100%;
+  border-radius: 10px;
+  padding-left: 25px;
+}
+.labelId {
+  padding: 10px 0 10px 10px;
+  width: 100%;
+}
+.menuBtn {
+  position: relative;
+  z-index: 1000;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+  width: 200px;
+  height: auto;
+  margin: 35px 0 0px -180px;
+}
+.icon-menu {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 20px;
+}
+.OutSide-menuBtn {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}

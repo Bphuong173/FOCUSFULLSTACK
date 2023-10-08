@@ -1,0 +1,15 @@
+.TagItem {
+  display: flex;
+  padding: 5px 5px;
+  align-items: center;
+}
+.todoTagLabel {
+  display: flex;
+  width: 80%;
+  height: 100%;
+  background-color: white;
+}
+.todoTagLabel-content {
+  display: block;
+  word-break: break-all;
+}
